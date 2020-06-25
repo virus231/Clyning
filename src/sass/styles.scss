@@ -1,0 +1,40 @@
+@import "base/vars";
+@import "base/fonts";
+
+
+
+body {
+	font-family: 'Museo Sans Cyrl', "PT Sans", "Pacifico",  sans-serif;
+}
+
+ul, li {
+	padding-left: 0 !important;
+	list-style-type: none
+}
+
+.btn-yellow {
+	text-decoration: none;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	background: linear-gradient(180deg, #FBD87C 0%, #FCBA2E 100%);
+	box-shadow: inset 0px -4px 4px #E7A20E;
+	border-radius: 36px;
+	color: white;
+	border: none;
+}
+
+
+
+
+
+// Blocks
+
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/services";
+@import "blocks/brif";
+
+
+
