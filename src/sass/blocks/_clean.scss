@@ -23,3 +23,25 @@
 		}
 	}
 }
+
+
+.box-wrapper {
+	position: relative;
+
+	&::after {
+		content: url('../images/aftbfr.png');
+		position: absolute;
+		bottom: -25%;
+		left: 50%;
+		display: inline-block;
+	}
+}
+
+// .box img { 
+// 	width: 100%;
+// }
+
+// .twentytwenty-container img {
+// 	width: 50% !important;
+// 	// height: 50%;
+// }

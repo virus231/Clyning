@@ -25,6 +25,13 @@ ul, li {
 	border: none;
 }
 
+.line {
+	height: 3px;
+	width: 40px;
+	background-color: #FCBA2E;
+	display: inline-block;
+}
+
 
 
 
@@ -36,6 +43,8 @@ ul, li {
 @import "blocks/services";
 @import "blocks/brif";
 @import "blocks/clean";
+@import "blocks/how";
+
 
 
 
