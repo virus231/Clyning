@@ -19,7 +19,15 @@
 	}
 }
 
+.service-1 {
+  a {
+    text-decoration: none
+  }
+}
+
 .main-form {
+    position: relative;
+
 
 	.form {
 		background: linear-gradient(180deg, #F1F7FF -20.67%, #FFFFFF 22.92%);
@@ -34,6 +42,12 @@
 			color: #FCBA2E;
 		}
 	}
+
+  &__img {
+    position: absolute;
+    top: 50%;
+    left: -40%
+  }
 }
 
 

@@ -1,0 +1,25 @@
+.clean {
+
+	&-title {
+		color: $main-blue;
+		font-family: PT Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+
+		.span {
+			position: relative;
+
+			&:before {
+				content: '';
+				// display:;
+				position: absolute;
+				width: 100%;
+				height: 7px;
+				background: #C5E2EC;
+				bottom: 20%;
+				z-index: -1;
+			}
+		}
+	}
+}
