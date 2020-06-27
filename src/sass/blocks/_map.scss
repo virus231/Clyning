@@ -1,0 +1,23 @@
+.map {
+    position: relative;
+
+    iframe {
+
+    }
+
+    .contact-block {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        display: inline-block;
+        background: linear-gradient(180deg, #DEECFF 0%, #FFFFFF 96.07%);
+        border-radius: 20px;
+
+        .social-links {
+            a {
+                text-decoration: none;
+            }
+        }
+
+    }
+}

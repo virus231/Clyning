@@ -65,9 +65,10 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Action</a>
+              </li>
+            
             </ul>
           </div>
         </div>
@@ -91,12 +92,13 @@
               Розрахувати вартість
               <img src="images/arrow-r.svg" alt="" class="pl-3 pb-1">
             </a>
+            <img src="images/Дізнайтесь ціну.svg" alt="" class="d-block ml-5 ">
           </div>
         </div>
       </div>
 
       <!-- Grid row -->
-      <div class="row p-4 intro-achivements d-flex justify-content-center mt-5">
+      <div class="row p-5 intro-achivements d-flex justify-content-center mt-5">
 
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-5">
@@ -305,17 +307,13 @@
         </div>
       </div>
       <div class="row mt-3 pb-5 justify-content-around">
-        <div class="col-lg-2">
-          <div class="service-1 d-flex flex-column align-items-center">
+        <div class="col-lg-4">
+          <div class="service-1 d-flex align-items-start justify-content-between">
             <a href="#" class="text-uppercase">
               <img src="images/service-img.svg" class="d-block m-auto pb-3" alt="">
               Прибирання
             </a>
 
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="service-1 d-flex flex-column align-items-center">
             <a href="#" class="text-uppercase text-center">
               <img src="images/service-img.svg" class="d-block m-auto pb-3" alt="">
               Хімчистка салону авто
@@ -425,7 +423,7 @@
   </section>
 
 
-  <section class="clean pb-4">
+  <section class="clean pb-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex justify-content-center m-auto">
@@ -471,7 +469,7 @@
     </div>
   </section>
 
-  <section class="how mt-5">
+  <section class="how mt-5 mb-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mt-5">
@@ -537,8 +535,8 @@
           <h4 class="text-center">
             Зробіть перший крок і отримайте 
             <span class="text-uppercase">
-              знижку
-            </span>  5%
+              знижку 5%
+            </span>  
           </h4>
         </div>
       </div>
@@ -554,11 +552,32 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center mt-5">
         <div class="col-lg-12">
           <div class="main-form">
-            <form>
-              
+            <form class="d-flex w-100 py-5 px-5 justify-content-around">
+
+              <div class="name-block">
+                <h5>Як до вас звертатися?</h5>
+                <input type="text" placeholder="Введіть ваше ім'я..." class="px-5 py-3 mt-3">
+              </div>
+
+              <div class="name-block">
+                <h5>Як до вас звертатися?</h5>
+                <input type="text" placeholder="Введіть ваше ім'я..." class="px-5 py-3 mt-3">
+              </div>
+
+              <div class="text-center">
+                <button class="btn-yellow py-3 px-5 send d-inline-block">
+                  Відправити
+                </button>
+                <p class="mt-3">
+                  Погоджуюсь з
+                  <a href="">
+                    Умовами обробки даних
+                  </a>
+                </p>
+              </div>
             </form>
           </div>
         </div>
@@ -566,8 +585,421 @@
     </div>
   </section>
 
+  <section class="faq mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="text-center">
+            Відповіді на популярні запитання
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-10 mx-auto mb-5">
+
+            <!--Accordion wrapper-->
+            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+                <!-- Accordion card -->
+                <div class="card mb-2 p-0">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingOne1">
+                        <a data-toggle="collapse" class="d-flex align-items-center justify-content-start"
+                            data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                            aria-controls="collapseOne1">
+                            <img src="images/question icon.svg" alt="">
+
+                            <h5 class="pl-5  mb-0 d-flex justify-content-between align-items-center">
+                                Де шукати e-wings?
+                            
+                                <i class="arrow">
+
+
+                                    <img src="images/arrow-down.svg" alt="">
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Електросамокати та велосипеди e-wings ви зможете знайти у будь якій точці міста. Якщо ви
+                            не бачите їх на вулиці, зайдіть у додаток та знайдіть на карті найближчий e-wings.
+                            You can find scooters anywhere in the city. Each e-wings is marked by icon on the map in
+                            the app.
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-bottom-0 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingTwo2">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false"
+                            aria-controls="collapseTwo2">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class=" pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Як розпочати поїздку?
+                                <i class="arrow">
+
+
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Потрібно поповнити “гаманець” у додатку, знайти на вулиці будь який e-wings, та
+                            зісканувати qr-код на рулі щоб активувати.
+                            You have to deposit funds to your wallet in order found your ride. Then scan any
+                            e-wings you find in the street to activate it instantly and ride in the city.
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-bottom-0 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingTwo">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseTwo3" aria-expanded="false"
+                            aria-controls="collapseTwo3">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class="pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Як забронювати e-wings?
+                                <i class="arrow">
+
+
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo3" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            У додатку e-wings виберіть потрібний самокат чи інший транспорт, натисніть на нього,
+                            після - на кнопку “бронювати”. Максимальний термін бронювання - 15 хв.
+                            You have to choose a scooter on the map in the app and click “Book”. Maximum booking
+                            period - 15 minutes
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-bottom-0 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingFour123">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseThree4" aria-expanded="false"
+                            aria-controls="collapseThree4">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class=" pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Яка вартість поїздки?
+                                <i class="arrow">
+
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingFour123"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Вартість розблокування одного транспортного засобу: 20 грн. Вартість 1 хв. користування
+                            - 1.5 грн. Вартість бронювання 1 грн./хв.
+                            To unlock - 20 ₴; Riding - 1.5 ₴ per minute; Boking - 1₴ per minute.
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingFour">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseThree5" aria-expanded="false"
+                            aria-controls="collapseThree5">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class="pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Як отримати безкоштовні поїздки?
+                                <i class="arrow">
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree5" class="collapse" role="tabpanel" aria-labelledby="headingFour"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Слідкуй за нашими активностями в соціальних мережах, бери участь у розіграшах та
+                            вигравай безкоштовні поїздки або інші призи від наших партнерів.
+                            Follow us on social networks, take part in raffles and win free rides and other prizes
+                            from our partners.
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingThree6">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseThree6" aria-expanded="false"
+                            aria-controls="collapseThree6">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class="pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Правила під час їзди.
+                                <i class="arrow">
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree6" class="collapse" role="tabpanel" aria-labelledby="headingThree6"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Використовуй e-wings виключно у дозволених зонах, позначених у додатку на карті.
+                            Дотримуйся правил дорожнього руху для велосипедистів.
+                            Не використовуй e-wings у стані алкогольного або наркотичного сп'яніння.
+                            Use e-wings within the geo limits. Be careful, follow the traffic rules. Do not use
+                            e-wings while you are under the influence of alcohol.
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card mb-2 border-left border-right border-light">
+
+                    <!-- Card header -->
+                    <div class="card-header border-bottom border-light" role="tab" id="headingThree7">
+                        <a class="collapsed d-flex align-items-center" data-toggle="collapse"
+                            data-parent="#accordionEx" href="#collapseThree7" aria-expanded="false"
+                            aria-controls="collapseThree7">
+                            <img src="images/question icon.svg" alt="">
+
+
+                            <h5
+                                class="pl-5 black-text font-weight-normal mb-0 d-flex justify-content-between align-items-center">
+                                Де залишити e-wings після закінчення поїздки?
+
+                                <i class="arrow">
+
+
+                                  <img src="images/arrow-down.svg" alt="">
+
+                                </i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree7" class="collapse" role="tabpanel" aria-labelledby="headingThree7"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Після закінчення поїздки паркуй e-wings відповідально та у дозволеній зоні для
+                            паркування (на карті у додатку). Після зроби фото припаркованого транспорту у додатку.
+                            Park your e-wings in a proper place and take a photo of it o end your ride,
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+            </div>
+            <!-- Accordion wrapper -->
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d643.7793958283291!2d23.98700567183756!3d49.80265705205327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1593284360827!5m2!1sru!2sua" width="1440" height="730" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="contact-block px-4 py-5">
+            <h6>
+              Контакти
+            </h6>
+            <a href="#">
+              <img src="" alt="">
+              Львів, вулиця Івана Пулюя, 6/87
+            </a>
+            <div class="d-flex flex-column">
+              <img src="" alt="">
+              <a href="#">
+              +38 (032) 247 60 30
+
+              </a>
+              <a href="#">
+              +38 (032) 247 60 30
+
+              </a>
+              <a href="#">
+              +38 (032) 247 60 30
+
+              </a>
+            </div>
+            <p>
+              <img src="" alt="">
+              <a href="#">
+                myidodyr@ukr.net
+              </a>
+            </p>
+            <div>
+              <img src="" alt="">
+              <p>
+                <span>Пн-Пт: </span>
+                9:00 - 18:00
+              </p>
+              <p>
+                <span>Пн-Пт: </span>
+                9:00 - 18:00
+              </p>
+              
+            </div>
+            <div class="social-links">
+              <a href="#">
+                <img src="images/youtube.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="images/youtube.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="images/youtube.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row pt-2">
+        <div class="col-lg-12 text-center">
+          <div class="logo">
+            <img src="images/footer-logo.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4 d-flex justify-content-between">
+        <div class="col-lg-2 d-flex justify-content-around">
+            <a href="#">
+              <img src="images/youtube-icon.svg" alt="">
+            </a>
+            <a href="#">
+              <img src="images/youtube-icon.svg" alt="">
+            </a>
+            <a href="#">
+              <img src="images/youtube-icon.svg" alt="">
+            </a>
+        </div>
+
+        <div class="col-lg-5">
+          <nav class="d-flex justify-content-around nav-footer">
+            <a href="">Послуги</a>
+            <a href="">Послуги</a>
+            <a href="">Послуги</a>
+            <a href="">Послуги</a>
+            <a href="">Послуги</a>          
+          </nav>
+        </div>
+
+        <div class="col-lg-2">
+          <a href="#">
+            <img src="images/tel-footer.svg" alt="">
+            +38 (067) 696 78 98
+          </a>
+        </div>
+        
+        
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3">
+          <span>
+            Myidodyr © All Rights Reserved 
+          </span>
+        </div>
+        <div class="col-lg-4">
+          <a href="" class="py-3 px-5 btn-yellow text-uppercase">
+            Калькулятор прибирання
+            <img src="images/arrow-r.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/jquery.event.move.js"></script>
+  <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.twentytwenty.js"></script>
   <!-- <script src="js/slick.min.js"></script> -->
   <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen">

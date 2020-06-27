@@ -32,6 +32,10 @@ ul, li {
 	display: inline-block;
 }
 
+iframe {
+	width: 100%;
+}
+
 
 
 
@@ -44,6 +48,12 @@ ul, li {
 @import "blocks/brif";
 @import "blocks/clean";
 @import "blocks/how";
+@import "blocks/faq";
+@import "blocks/map";
+@import "blocks/footer";
+
+
+
 
 
 

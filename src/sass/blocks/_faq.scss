@@ -1,0 +1,58 @@
+.card {
+    border-radius: 50px !important;
+    border: none;
+}
+
+.card-header {
+    background: rgba(222, 236, 255, 0.38);
+    border-radius: 20px;
+    padding: 20px !important;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.card-header h5 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    color: #727878;
+    width: 100%;
+    text-decoration: none;
+    transition: all .33s;
+
+    &:hover {
+        color: #FCBA2E;
+    }
+
+    &:visited {
+        color: #FCBA2E;
+
+    }
+}
+
+.card-header .collapsed {
+    border-radius: 20px
+}
+
+.card-body {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #727878
+}
+
+.arrow {
+    -webkit-transition: all .33s;
+    -o-transition: all .33s;
+    transition: all .33s
+}
+
+.arrow.active {
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1)
+}
