@@ -13,6 +13,23 @@
         background: linear-gradient(180deg, #DEECFF 0%, #FFFFFF 96.07%);
         border-radius: 20px;
 
+        h6 {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            color: $main-blue
+        }
+
+        a {
+            font-family: Museo Sans Cyrl;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #757575;
+            text-decoration: none
+        }
+
         .social-links {
             a {
                 text-decoration: none;

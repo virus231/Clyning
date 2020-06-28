@@ -1,5 +1,10 @@
 $("#box").twentytwenty();
 
+$(document).ready(function(){
+  $("#calc_l_m_range").on("input", function(){
+    $("#calc_l_meters").val(this.value);
+  });
+});
 
 $('#headingOne1').click(function (e) {
     e.preventDefault()
@@ -46,5 +51,8 @@ $('#headingOne1').click(function (e) {
     e.preventDefault()
     $(this).find('.arrow').toggleClass('active');
   });
+
+
+
 
 

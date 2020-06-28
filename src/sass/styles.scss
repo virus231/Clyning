@@ -36,6 +36,25 @@ iframe {
 	width: 100%;
 }
 
+.list-group-item.active {
+	background: none !important;
+	border: none !important;
+	color: $main-blue;
+	font-weight: 800;
+}
+
+.list-group {
+	flex-direction: row;
+}
+
+.list-group-item {
+	font-family: Museo Sans Cyrl;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	background: none !important;
+	border: none !important
+}
 
 
 
