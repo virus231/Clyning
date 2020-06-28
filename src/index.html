@@ -390,11 +390,12 @@
                 <input type="range" name="" id="calc_l_m_range" class="text-center"  min="0" max="1000" value="600" step="150">
                 <span class="under d-inline-block ml-3">4</span>
                 місця
-                <p style="color: #265A9E; font-weight: 800; " class="w-50 d-flex justify-content-around m-auto mt-3">
+                <p style="color: #265A9E; font-weight: 800; " class="w-50 d-flex m-auto mt-3 justify-content-around align-items-start m-auto">
                   <span style="color: #FCBA2E; font-size: 16px; font-weight: normal;" class="text-uppercase">
                     Вартість:
                   </span>
                   <input type="text" class="value" value="600" disabled id="calc_l_meters">
+                  грн.
                 </p>
               </div>
 
@@ -402,15 +403,17 @@
                 <span class="mr-3 d-inline-block">
                   2
                 </span>
-                <input type="range" name="" id="" class="text-center">
+                <input type="range" name="" id="calc_l_m_range_2" class="text-center"  min="0" max="1000" value="600" step="150">
+
                 <span class="under d-inline-block ml-3">4</span>
                 місця
 
-                <p style="color: #265A9E; font-weight: 800;" class="w-50 d-flex justify-content-around m-auto mt-3">
+                <p style="color: #265A9E; font-weight: 800;" class="w-50 d-flex justify-content-around align-items-start m-auto mt-3">
                   <span style="color: #FCBA2E; font-size: 16px; font-weight: normal;" class="text-uppercase">
                     Вартість:
                   </span>
-                  600 грн
+                  <input type="text" class="value" value="600" disabled id="calc_l_meters_2">
+                  грн.
                 </p>
 
               </div>
@@ -425,16 +428,16 @@
 
             </form>
 
+            <!-- Form 2 - Прибирання -->
             <form class="form py-4 text-center tab-pane fade " id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
               <h4 class="form-title text-center">
                 Калькулятор прибирання
               </h4>
 
-              <div class="text-center m-auto select">
-                <span>1</span>
+              <div class="text-center m-auto select mt-3">
                 <div class="select">
                   <select>
-                    <option>Седан</option>
+                    <option>Квартира</option>
                     <option>Hello 1</option>
                     <option>Hello 2</option>
                     <option>Hello 3</option>
@@ -443,15 +446,23 @@
                   <div class="select_arrow">
                   </div>
                 </div>
-
-                <button>-</button>
               </div>
 
               <div class="text-center select">
-                <span>2</span>
+                <div class="select select-house w-100 d-flex justify-content-around align-items-center p-3">
+                  <button class="min-1">-</button>
+                  <input type="text" class="value value-house" value="1" disabled>
+                  Санвузол
+                  <button class="plus-1">
+                    +
+                  </button>
+                </div>
+              </div>
+
+              <div class="text-center m-auto select mt-3 mb-3">
                 <div class="select">
                   <select>
-                    <option>Універсал</option>
+                    <option>Після ремонту</option>
                     <option>Hello 1</option>
                     <option>Hello 2</option>
                     <option>Hello 3</option>
@@ -460,56 +471,23 @@
                   <div class="select_arrow">
                   </div>
                 </div>
-                <button>-</button>
               </div>
-
-              <div class="text-center">
-                <a href="">
-                  +
-                  <span>
-                    Додати авто
-                  </span>
-
-                </a>
-              </div>
-
-              <div class="text-center select">
-                <p class="text-center">
-                  Кількість посадкових місць:
-                </p>
-                <span>
-                  1
-                </span>
-                <input type="range" name="" id="" class="text-center">
-                <span class="text-underline">4</span>
-                місця
+              
+              <div class="square mb-3">               
                 <p>
-                  <span>
-                    Вартість
-                  </span>
-                  600 грн
+                  Площа
                 </p>
-              </div>
-
-              <div class="text-center select">
+                <input type="range" name="" id="calc_l_m_range_3" class="text-center"  min="0" max="20" step="1">
+                <input type="text" name="" value="12" class="value value-square"  id="calc_l_meters_3" disabled>
                 <span>
-                  1
+                  m<sup>2</sup>
                 </span>
-                <input type="range" name="" id="" class="text-center">
-                <span>4</span>
-                місця
-                <p>
-                  <span>
-                    Вартість
-                  </span>
-                  600 грн
-                </p>
-
               </div>
+
 
               <div class="text-center">
                 <button class="btn-yellow px-5 py-4 m-auto">
-                  ЗАМОВИТИ ХІМЧИСТКУ від 1500 грн
+                  ЗАМОВИТИ ПРИБИРАННЯ від 1500 грн
                 </button>
 
               </div>

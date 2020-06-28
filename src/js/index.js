@@ -6,6 +6,18 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $("#calc_l_m_range_2").on("input", function(){
+    $("#calc_l_meters_2").val(this.value);
+  });
+});
+
+$(document).ready(function(){
+  $("#calc_l_m_range_3").on("input", function(){
+    $("#calc_l_meters_3").val(this.value);
+  });
+});
+
 $('#headingOne1').click(function (e) {
     e.preventDefault()
     $(this).find('.arrow').toggleClass('active');

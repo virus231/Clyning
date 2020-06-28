@@ -183,6 +183,16 @@ how to remove the virtical space around the range input in IE*/
   margin-bottom: 15px;
   width: 70%;
 
+  &-house {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: $main-blue;
+    background: #F1F7FF;
+    border-radius: 24px;
+  }
+
   p {
     font-family: Museo Sans Cyrl;
     font-style: normal;
@@ -268,7 +278,24 @@ how to remove the virtical space around the range input in IE*/
 
 .value {
   background: none !important;
-  border: none !important
+  border: none !important;
+  width: 30%;
+
+  &-house {
+    width: 20%;
+    color: $main-blue;
+    font-size: 20px !important;
+  }
+
+  &-square {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+    text-decoration: underline;
+    color: $main-blue;
+    width: 12%;
+  }
 }
 
 .add {
@@ -293,4 +320,23 @@ how to remove the virtical space around the range input in IE*/
     }
   }
 
+}
+
+.square {
+  p {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: $main-blue;
+    margin: 0 !important;
+  }
+
+  span {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: #FCBA2E;
+  }
 }
